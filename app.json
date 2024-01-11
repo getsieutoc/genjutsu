@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6570deb1-eb68-48cd-8b32-60acc72ab404"
+      }
+    },
+    "owner": "sieutoc"
   }
 }
