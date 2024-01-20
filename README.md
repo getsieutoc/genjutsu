@@ -17,11 +17,11 @@ This template includes the following:
 
 ## Getting Started
 
-#### For Development
+### For Development
 
 - We use `yarn` package manager. Get it [here](https://classic.yarnpkg.com/en/docs).
 
-#### Clone the project
+### Clone the project
 
 You can either use this template by:
 
@@ -34,7 +34,7 @@ npx tiged websitesieutoc/genjutsu your-project
 
 Then, search and replace `genjutsu` with your project slug.
 
-#### Install dependencies
+### Install dependencies
 
 ```bash
 cd your-project
