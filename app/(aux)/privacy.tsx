@@ -1,6 +1,5 @@
-import { Text, View } from 'react-native';
 import { Link } from 'expo-router';
-
+import { Text, View } from 'react-native';
 
 export default function PrivacyPage() {
   return (
