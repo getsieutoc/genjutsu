@@ -32,7 +32,7 @@ You can either use this template by:
 npx tiged websitesieutoc/genjutsu your-project
 ```
 
-Then, search and replace `ninjutsu` with your project slug.
+Then, search and replace `genjutsu` with your project slug.
 
 #### Install dependencies
 
@@ -41,16 +41,24 @@ cd your-project
 yarn
 ```
 
-#### Setup environment variables
+## Setup project
 
-For the first time, you need some default environment variables:
+For the first time, you need to create a project on Expo:
+
+- Go to your organization projects page: `https://expo.dev/accounts/<your-org>/projects`
+- Create new project. It will show the next step, or you can copy the project ID.
+- Run the `eas init` to connect your project with Expo. Get `eas-cli` [here](https://docs.expo.dev/build/setup/#install-the-latest-eas-cli).
+- It will ask you to overwrite the old ID. You should answer `Y` (Yes).
 
 ```bash
-cp .env.example .env
+eas init --id <your-project-id>
 ```
 
-Then, run the development iOS simulator
+Then, run the iOS simulator
 
 ```bash
 yarn ios
 ```
+
+Happy development! :tada:
+

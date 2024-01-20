@@ -31,6 +31,9 @@
         "projectId": "36f47c87-11c2-42e9-a199-f9d8294a0435"
       }
     },
-    "owner": "sieutoc"
+    "owner": "sieutoc",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
