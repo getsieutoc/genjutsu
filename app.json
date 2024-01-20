@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "kassa-kumpani",
-    "slug": "kassa-kumpani",
+    "name": "genjutsu",
+    "slug": "genjutsu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,7 +28,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "6570deb1-eb68-48cd-8b32-60acc72ab404"
+        "projectId": "36f47c87-11c2-42e9-a199-f9d8294a0435"
       }
     },
     "owner": "sieutoc"
