@@ -1,12 +1,11 @@
-import { Link } from 'expo-router';
-import { Text, View } from 'react-native';
+import { Link, SafeAreaView, Text } from '@/components';
 
 export default function PrivacyPage() {
   return (
-    <View>
+    <SafeAreaView>
       <Link href="/">Back to Home</Link>
 
       <Text>Privacy Policy</Text>
-    </View>
+    </SafeAreaView>
   );
 }

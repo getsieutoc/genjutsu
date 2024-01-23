@@ -1,7 +1,8 @@
 import { useFonts, Nunito_500Medium } from '@expo-google-fonts/nunito';
-import { ThemeProvider, DarkTheme /* DefaultTheme */ } from '@react-navigation/native';
+import { ThemeProvider, DarkTheme } from '@react-navigation/native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { SplashScreen, Slot } from 'expo-router';
-import { useEffect } from 'react';
+import { useEffect } from '@/hooks';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -32,7 +33,9 @@ export default function RootLayout() {
   // </>
   return (
     <ThemeProvider value={DarkTheme}>
-      <Slot />
+      <SafeAreaProvider>
+        <Slot />
+      </SafeAreaProvider>
     </ThemeProvider>
   );
 }

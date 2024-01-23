@@ -1,14 +1,13 @@
-import { Link } from 'expo-router';
-import { View } from 'react-native';
+import { Link, SafeAreaView } from '@/components';
 
 import { MagicAuth } from '@/views';
 
 export default function LoginPage() {
   return (
-    <View>
+    <SafeAreaView>
       <Link href="/">Back to Home</Link>
 
       <MagicAuth />
-    </View>
+    </SafeAreaView>
   );
 }

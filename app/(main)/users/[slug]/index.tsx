@@ -1,9 +1,15 @@
-import { Text } from 'react-native';
+import { Link, SafeAreaView, Text } from '@/components';
 
 import { useLocalSearchParams } from '@/hooks';
 
 export default function DynamicPage() {
   const { slug } = useLocalSearchParams();
 
-  return <Text>Current slug: {slug}</Text>;
+  return (
+    <SafeAreaView>
+      <Link href="/">Back to home</Link>
+
+      <Text>Current slug: {slug}</Text>
+    </SafeAreaView>
+  );
 }
