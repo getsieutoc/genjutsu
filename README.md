@@ -19,7 +19,7 @@ This template includes the following:
 
 ### For Development
 
-- We use `yarn` package manager. Get it [here](https://classic.yarnpkg.com/en/docs).
+- We use `npm` package manager. We should let yarn rest in peace.
 
 ### Clone the project
 
@@ -38,7 +38,7 @@ Then, search and replace `genjutsu` with your project slug.
 
 ```bash
 cd your-project
-yarn
+npm install
 ```
 
 ## Setup project
@@ -57,8 +57,14 @@ eas init --id <your-project-id>
 Then, run the iOS simulator
 
 ```bash
-yarn ios
+npm run ios
 ```
 
 Happy development! :tada:
 
+## Production
+
+Make sure you change at least these things before submitting to App store:
+
+- Change your scheme in `app.config.ts`
+- Setup your secrets and environment variables

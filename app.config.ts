@@ -5,7 +5,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Genjutsu',
   slug: 'genjutsu',
-  scheme: 'genjutsu',
+  scheme: 'sieutoc.genjutsu',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',

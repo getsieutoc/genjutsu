@@ -4,6 +4,8 @@
   "main": "expo-router/entry",
   "scripts": {
     "clean": "./cleaning.sh",
+    "lint": "eslint ./ --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -11,7 +13,10 @@
   },
   "dependencies": {
     "@expo-google-fonts/nunito": "0.2.3",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@supabase/supabase-js": "2.39.3",
     "expo": "50.0.2",
+    "expo-auth-session": "5.4.0",
     "expo-constants": "15.4.5",
     "expo-font": "11.10.2",
     "expo-linking": "6.2.2",
@@ -19,8 +24,10 @@
     "expo-status-bar": "1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.2",
+    "react-native-elements": "3.4.3",
     "react-native-safe-area-context": "4.8.2",
-    "react-native-screens": "3.29.0"
+    "react-native-screens": "3.29.0",
+    "react-native-url-polyfill": "2.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.23.7",
