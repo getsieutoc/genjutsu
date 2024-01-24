@@ -1,7 +1,14 @@
-import { Link, SafeAreaView } from '@/components';
+import { Link, Redirect, SafeAreaView } from '@/components';
 import { StyleSheet } from 'react-native';
+import { useSupabase } from '@/hooks';
 
 export default function HomePage() {
+  const { isLoggedIn } = useSupabase();
+
+  if (!isLoggedIn) {
+    return <Redirect href="/login" />;
+  }
+
   return (
     <SafeAreaView style={[styles.container]}>
       <Link href="/settings">Settings</Link>
