@@ -6,7 +6,7 @@ import { useEffect } from '@/hooks';
 
 SplashScreen.preventAutoHideAsync();
 
-// Try to reduce the scope of your providers to only the routes that need them.
+// Try to reduce the scope of providers to only the routes that need them.
 // This will improve performance and cause fewer rerenders.
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts({
@@ -26,11 +26,6 @@ export default function RootLayout() {
     return null;
   }
 
-  // <>
-  //     <Header />
-  //     <Slot />
-  //     <Footer />
-  // </>
   return (
     <ThemeProvider value={DarkTheme}>
       <SafeAreaProvider>

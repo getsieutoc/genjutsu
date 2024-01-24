@@ -27,7 +27,7 @@ const createSessionFromUrl = async (url: string) => {
 
 const sendMagicLink = async () => {
   const { error } = await supabase.auth.signInWithOtp({
-    email: 'example@email.com',
+    email: 'sangdth@gmail.com',
     options: {
       emailRedirectTo: redirectTo,
     },

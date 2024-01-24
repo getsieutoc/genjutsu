@@ -1,11 +1,11 @@
-import { Link, SafeAreaView, Text } from '@/components';
+import { Link, Text, View } from '@/components';
 
 export default function PrivacyPage() {
   return (
-    <SafeAreaView>
+    <View>
       <Link href="/">Back to Home</Link>
 
       <Text>Privacy Policy</Text>
-    </SafeAreaView>
+    </View>
   );
 }

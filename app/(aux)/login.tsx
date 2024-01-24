@@ -1,13 +1,12 @@
-import { Link, SafeAreaView } from '@/components';
-
+import { Link, View } from '@/components';
 import { MagicAuth } from '@/views';
 
 export default function LoginPage() {
   return (
-    <SafeAreaView>
+    <View>
       <Link href="/">Back to Home</Link>
 
       <MagicAuth />
-    </SafeAreaView>
+    </View>
   );
 }

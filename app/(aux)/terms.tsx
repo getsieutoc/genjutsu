@@ -1,11 +1,11 @@
-import { Link, SafeAreaView, Text } from '@/components';
+import { Link, View, Text } from '@/components';
 
 export default function TermsPage() {
   return (
-    <SafeAreaView>
+    <View>
       <Link href="/">Back to Home</Link>
 
       <Text>Terms of Service</Text>
-    </SafeAreaView>
+    </View>
   );
 }
