@@ -11,5 +11,12 @@ module.exports = {
   root: true,
   rules: {
     'import/order': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
   },
 };

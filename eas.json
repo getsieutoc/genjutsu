@@ -4,14 +4,14 @@
       "env": {
         "APP_NAME": "Genjutsu",
         "EXPO_PUBLIC_SUPABASE_URL": "https://fqdnyagubuyseqrepwzp.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxZG55YWd1YnV5c2VxcmVwd3pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYwMjM4MDUsImV4cCI6MjAyMTU5OTgwNX0.6D0Ff5mDKYBP53mddwhUllZqca9bL_Mgk7RxelzFuH4"
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxZG55YWd1YnV5c2VxcmVwd3pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYwMjM4MDUsImV4cCI6MjAyMTU5OTgwNX0.6D0Ff5mDKYBP53mddwhUllZqca9bL_Mgk7RxelzFuH4"
       }
     },
     "test": {
       "env": {
         "APP_NAME": "Genjutsu (Test)",
         "EXPO_PUBLIC_SUPABASE_URL": "https://fqdnyagubuyseqrepwzp.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxZG55YWd1YnV5c2VxcmVwd3pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYwMjM4MDUsImV4cCI6MjAyMTU5OTgwNX0.6D0Ff5mDKYBP53mddwhUllZqca9bL_Mgk7RxelzFuH4"
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxZG55YWd1YnV5c2VxcmVwd3pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYwMjM4MDUsImV4cCI6MjAyMTU5OTgwNX0.6D0Ff5mDKYBP53mddwhUllZqca9bL_Mgk7RxelzFuH4"
       }
     }
   }

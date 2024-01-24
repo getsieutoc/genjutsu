@@ -3,7 +3,8 @@ import { ExpoConfig, ConfigContext } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: 'Genjutsu',
+  owner: 'sieutoc',
+  name: process.env.APP_NAME,
   slug: 'genjutsu',
   scheme: 'sieutoc.genjutsu',
   version: '1.0.0',
@@ -18,6 +19,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
+    config: {
+      usesNonExemptEncryption: false,
+    },
   },
   android: {
     adaptiveIcon: {
@@ -33,6 +37,5 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       projectId: '36f47c87-11c2-42e9-a199-f9d8294a0435',
     },
   },
-  owner: 'sieutoc',
-  plugins: ['expo-font', 'expo-router'],
+  plugins: ['expo-font', 'expo-router', 'expo-secure-store'],
 });
